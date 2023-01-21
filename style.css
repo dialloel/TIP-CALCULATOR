@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+   
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    text-align: center;
+    font-weight: bold;
+}
+.dollars{
+    background-color: gray;
+    
+  
+  
+
+}
+.montant{
+    text-align: center;
+   
+    
+    
+   
+}
+.Wrapper{
+    text-align: center;
+  
+   
+}
+
+#Tip {
+    -webkit-appearance: none;
+    width: 80%;
+    margin: 2rem 0;
+    height: 10px;
+    background: hsl(193, 94%, 34%);
+    border-radius: 3px;
+    }
+    #Tip::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(5, 47, 156);
+    background: hsl(255, 14%, 66%);
+    cursor: pointer;
+    }
+
+    .montant-tip, .montant-total{
+        text-align: center;
+
+    }
+
+    label, input {
+		display: inline-block;
+		
+	}
+
+

@@ -5,15 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Tip Calculator</h1>
-    <div>
-        <label for="amount"> <span class="dollars">$</span></label> <input type="number">
+
+<form action="form">
+   
+    <div class="montant">
+        <label for="amount"> </label> 
+        <span class="dollars">$</span><input type="text" id="amount">
 
     </div>
-
-
     
+    <br><br>
+    
+    <div Class="Wrapper">
+        <Label for="Tip" >
+            Tip :</Label>
+       
+            <input type="range" min="15" max="25" id="Tip">
+        <span id=”percentage-output”></span>
+    
+       
+    </div>
+    <br>
+
+    <hr>
+
+</form>
+
+    <h2>Results</h2>
+
+    <div class="montant-tip">
+
+        <label for="tipamount">
+
+        <span>Tip amount</span></label> <span id="tipamount"></span> 
+
+        
+
+    </div>
+    <br>
+    <br>
+
+    <div class="montant-total">
+
+        <label for="totalbill">
+
+        <span>Total bill with tip</span> </label> <span type="text" id="totalbill"></span>
+
+       
+
+    </div>
+    
+
+
+<script src="main.js"></script>
+
+   
 </body>
 </html>
