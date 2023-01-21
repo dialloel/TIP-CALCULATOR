@@ -1,4 +1,4 @@
- document.getElementById("form").onchange = function(){
+ document.getElementById("calculator").onchange = function(){
 
 
   var totalAmount = Number(document.getElementById("amount").value);
@@ -10,6 +10,8 @@
   var totalBill = totalAmount + tipAmount; 
 
   document.getElementById("percentage-output").innerHTML = " " + tipPercentage + "%";
+
+  document.getElementById("tipamount").innerHTML = " " + tipAmount; 
   document.getElementById("totalbill").innerHTML = " " + totalBill; 
 
 

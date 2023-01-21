@@ -8,42 +8,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div id="container">
+
+
+   
     <h1>Tip Calculator</h1>
 
-<form action="form">
+    <form action="form" id="calculator">
    
-    <div class="montant">
-        <label for="amount"> </label> 
-        <span class="dollars">$</span><input type="text" id="amount">
+        <div class="montant">
+            <label for="amount" class="dollars">$   &ensp; </label> 
+            <input type="text" id="amount">
 
-    </div>
-    
-    <br><br>
-    
-    <div Class="Wrapper">
-        <Label for="Tip" >
-            Tip :</Label>
-       
-            <input type="range" min="15" max="25" id="Tip">
-        <span id=”percentage-output”></span>
-    
-       
-    </div>
-    <br>
+        </div>
+        
+        <br><br>
+        
+        <div Class="Wrapper">
+            <Label for="Tip" >
+                Tip :</Label>
+        
+                <input type="range" min="0" max="100" id="Tip">
+            <span id="percentage-output"></span>
+        
+        
+        </div>
+        <br>
 
-    <hr>
+        <hr>
 
-</form>
+    </form>
 
     <h2>Results</h2>
 
     <div class="montant-tip">
 
-        <label for="tipamount">
-
-        <span>Tip amount</span></label> <span id="tipamount"></span> 
-
-        
+        <label for="tamount">Tip amount</label> <span id="tipamount"></span> 
 
     </div>
     <br>
@@ -51,13 +52,13 @@
 
     <div class="montant-total">
 
-        <label for="totalbill">
-
-        <span>Total bill with tip</span> </label> <span type="text" id="totalbill"></span>
+        <label for="tbill"> Total bill with tip </label> <span type="text" id="totalbill"></span>
 
        
 
     </div>
+
+</div>
     
 
 
